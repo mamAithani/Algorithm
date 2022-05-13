@@ -1,0 +1,33 @@
+https://en.wikipedia.org/wiki/Sorting_algorithm
+
+A) Bubble Sort 
+New to Sorting ? Learn Bubble Sort and See how sorting works in real 
+Not used in companies but good to know since you are starting to learn Bubble sort 
+
+B) Selection Sort 
+New to Sorting ? Here is the another way to sort data 
+
+C) Insertion Sort O(n) 
+Works good for less data 
+
+See where the numbers fits to the eye 
+
+D) Merge Sort
+Takes lot of memory space compared to quick sort - Space Complexity -- O(n) 
+1)  follow divide and conquer strategy
+
+Because it is divide and conquer the time complexity is O(n log n)  and space complexity is O(n) 
+
+E) Quick Sort 
+how it works?
+Here are the steps
+
+1) Find a Pivot. Look for a number and make it Pivot . Generally the last number is taken as Pivot.
+2) Numbers greater than Pivot on the right side and numbers less than Pivot on the left side.
+3) Once done . follow divide and conquer strategy while the Pivot remain untouched.
+
+Because it is divide and conquer the time complexity is O(n log n)  and space complexity is O(log n)
+
+F) Radix/ Counting sort 
+
+
