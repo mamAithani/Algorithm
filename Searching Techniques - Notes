@@ -1,15 +1,16 @@
-A) Linear Search 
+A) Linear Search ( Time Complexity is - O(n) ) 
 
-    Going one by one sequentially 
+   1)  Going one by one sequentially 
 
 
-B) Binary Search ( Divide and Conquer, Time Complexity - O(n)  )
+B) Binary Search ( Divide and Conquer, Time Complexity - O(log n)  )
 
-Approach is diving the list into smaller list . How do we do that?
+        Approach is diving the list into smaller list . How do we do that?
 
-1) Sort the List 
-2) Find the number in the middle
-3) Discard numbers to the left if smaller and search only in the remaining list making a smaller list.
+        1) Sort the List ( it is better to stay organized ) 
+        2) Find the number in the middle
+        3) Discard numbers to the left or right depending on items to the left or right 
+           Therby search only in the remaining list making a smaller list.
 
 
 
