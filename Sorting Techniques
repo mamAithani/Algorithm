@@ -1,8 +1,18 @@
 https://en.wikipedia.org/wiki/Sorting_algorithm
 
+******************************************************************************************************************************************************
 A) Bubble Sort 
 New to Sorting ? Learn Bubble Sort and See how sorting works in real 
 Not used in companies but good to know since you are starting to learn Bubble sort 
+Bubble Sort sorts the adjacent elements.
+Steps:
+
+
+Pros:
+Cons: It is not suitable for long sets of data as it increases the time complexity. 
+
+
+******************************************************************************************************************************************************
 
 B) Selection Sort 
 New to Sorting ? Here is the another way to sort data 
