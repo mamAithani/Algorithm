@@ -55,8 +55,7 @@ Process:
               
                Pass 4
               {11, 12, 22,25,  64} 
-              
-             
+                          
               
 Pros: easy to learn 
 Cons: Time Complexity: The time complexity of Selection Sort is O(N2) as there are two nested loops:
@@ -64,7 +63,6 @@ Cons: Time Complexity: The time complexity of Selection Sort is O(N2) as there a
 One loop to select an element of Array one by one = O(N)
 Another loop to compare that element with every other Array element = O(N)
 Therefore overall complexity = O(N)*O(N) = O(N*N) = O(N2)
-
 
 ******************************************************************************************************************************************************
 C) Insertion Sort O(n) 
