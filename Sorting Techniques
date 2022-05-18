@@ -5,28 +5,83 @@ A) Bubble Sort
 New to Sorting ? Learn Bubble Sort and See how sorting works in real 
 Not used in companies but good to know since you are starting to learn Bubble sort 
 Bubble Sort sorts the adjacent elements.
-Steps:
 
+Process: 
+              Steps: Consider an array arr[] = {5, 1, 4, 2, 8}
+              Pass 1
+              {1, 5, 4, 2, 8}
+              {1, 4, 5, 2, 8}
+              {1, 4, 2, 5, 8}
+              {1, 4, 2, 5, 8}
 
-Pros:
-Cons: It is not suitable for long sets of data as it increases the time complexity. 
+              Pass 2
+              {1, 4, 2, 5, 8}
+              {1, 2, 4, 5, 8}
+              {1, 2, 4, 5, 8}
+              {1, 2, 4, 5, 8}
+
+              Pass 3
+              Now, the array is already sorted, but our algorithm does not know if it is completed.
+              The algorithm needs one whole pass without any swap to know it is sorted.
+
+              {1, 2, 4, 5, 8}
+              {1, 2, 4, 5, 8}
+              {1, 2, 4, 5, 8}
+              {1, 2, 4, 5, 8}
+              
+Pros: easy to learn 
+Cons: It is not suitable for long sets of data as it increases the Time Complexity. 
 
 
 ******************************************************************************************************************************************************
 
-B) Selection Sort 
+B) Selection Sort / Minimum element  
 New to Sorting ? Here is the another way to sort data 
 
+Process: 
+              Steps: Consider an array arr[] = {64, 25, 12, 22, 11}
+              Pass 1 -- for i = 0 to noofelements
+              {11, 64, 25, 12, 22}   -- considers 25 as a min element, compares with the other element 
+                                      
+              Pass 2  -- for i = 0 to noofelements
+              {11, 64, 25, 22, 12}   -- considers 64 as a mim element and traverses through the rest of the elements 
+              {11, 12, 64, 25, 22} 
+          
+              Pass 3
+              {11, 12, 22,64,  25} 
+              
+              Pass 4
+              {11, 12, 22,25,  64} 
+              
+               Pass 4
+              {11, 12, 22,25,  64} 
+              
+             
+              
+Pros: easy to learn 
+Cons: Time Complexity: The time complexity of Selection Sort is O(N2) as there are two nested loops:
+
+One loop to select an element of Array one by one = O(N)
+Another loop to compare that element with every other Array element = O(N)
+Therefore overall complexity = O(N)*O(N) = O(N*N) = O(N2)
+
+
+******************************************************************************************************************************************************
 C) Insertion Sort O(n) 
 Works good for less data 
 
 See where the numbers fits to the eye 
 
+
+******************************************************************************************************************************************************
 D) Merge Sort
 Takes lot of memory space compared to quick sort - Space Complexity -- O(n) 
 1)  follow divide and conquer strategy
 
 Because it is divide and conquer the time complexity is O(n log n)  and space complexity is O(n) 
+
+
+******************************************************************************************************************************************************
 
 E) Quick Sort 
 how it works?
@@ -38,6 +93,9 @@ Here are the steps
 
 Because it is divide and conquer the time complexity is O(n log n)  and space complexity is O(log n)
 
+
+
+******************************************************************************************************************************************************
 F) Radix/ Counting sort 
 
 
