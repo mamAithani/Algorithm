@@ -1,1 +1,33 @@
 Recursion
+
+
+1) Identify the Base Case
+2) Identify the recursive case 
+3) return from the base case
+4) return from the recursive case
+
+
+************Factorial of a given number using recursion *******************  3!  =3* 2* 1
+
+function factorial(n)
+{
+debugger;
+   if (n<= 2) 
+   return n;  
+   return n * factorial(n-1); 
+}
+
+TimeComplexity = O(n) ( called as many number of times as the number itself ) 
+
+************Fibonaaci of a given number using recursion *******************  0, 1, 1, 2, 3, 5, 7
+
+function fibonacci(n){
+debugger;
+  if(n==1)
+  return 0;
+  
+   if(n==2)
+  return 1;
+
+  return fibonacci(n-1) + fibonacci(n-2);
+} 
