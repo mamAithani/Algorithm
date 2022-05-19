@@ -19,7 +19,7 @@ debugger;
 
 TimeComplexity = O(n) ( called as many number of times as the number itself ) 
 
-************Fibonaaci of a given number using recursion *******************  0, 1, 1, 2, 3, 5, 7
+************Fibonaaci of a given number using recursion *******************  0, 1, 1, 2, 3, 5, 7 -----------------Time complexity is exponential O(2 to the pwere of n)
 
 function fibonacci(n){
 debugger;
@@ -31,3 +31,5 @@ debugger;
 
   return fibonacci(n-1) + fibonacci(n-2);
 } 
+
+TimeComplexity = O(2^n) ( called as many number of times as the number itself ) 
